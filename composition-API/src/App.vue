@@ -3,7 +3,8 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/counter">Counter-Option API</router-link> |
-      <router-link to="/counter2">Counter-Compostion API</router-link>
+      <router-link to="/counter2">Counter-Compostion API</router-link> |
+      <router-link to="/reactive-view">Reactive Data</router-link>
     </nav>
     <router-view />
   </div>

@@ -21,6 +21,11 @@ const routes = [
     name: "counter2",
     component: () => import("../views/CounterView2.vue"),
   },
+  {
+    path: "/reactive-view",
+    name: "reactive-view",
+    component: () => import("../views/ReactiveView.vue"),
+  },
 ];
 
 const router = createRouter({

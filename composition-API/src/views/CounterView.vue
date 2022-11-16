@@ -11,20 +11,20 @@
 export default {
   data() {
     return {
-      count: 0,
+      count: { num: 0 },
     };
   },
   computed: {
     countNum() {
-      return this.count;
+      return this.count.num;
     },
   },
   methods: {
     increase() {
-      this.count += 1;
+      this.count.num += 1;
     },
     decrease() {
-      this.count -= 1;
+      this.count.num -= 1;
     },
   },
 };
